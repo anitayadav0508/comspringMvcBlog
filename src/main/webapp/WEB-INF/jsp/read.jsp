@@ -18,12 +18,15 @@
         <th>Id</th>
         <th>Title</th>
         <th>Description</th>
+        <th>Delete/Update</th>
     </tr>
 <c:forEach var="items" items= "${blogs}">
           <tr bgcolor="#7fff00">
              <th>${items.id}</th>
             <th> ${items.title}</th>
             <th>${items.description}</th>
+              <th><a href="/blog/delete?id=${items.id}">Delete</a>
+              <a href="/blog/get?id=${items.id}" >Edit</a></th>
 
         </tr>
     </c:forEach>
