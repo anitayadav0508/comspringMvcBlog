@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Welcome To Arul Project</h1>
-<a href="/welcome">Welcome</a>
+<h1>Welcome To  Mapping in Hibernate</h1>
+<a href="/insert/home">Home </a>
 </body>
 </html>
